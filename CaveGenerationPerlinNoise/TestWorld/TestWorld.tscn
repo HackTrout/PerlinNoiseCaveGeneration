@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://CaveGenerator/CaveGenerator.tscn" type="PackedScene" id=2]
+
+[node name="TestWorld" type="Node2D"]
+
+[node name="CaveGenerator" parent="." instance=ExtResource( 2 )]
+grid_line_width = 2.0
+draw_grid_text = false
